@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "258143586742",
+    "project_id": "testscoche-90c7b",
+    "storage_bucket": "testscoche-90c7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258143586742:android:66d8202e28dcbe74699917",
+        "android_client_info": {
+          "package_name": "org.edgarsuarezmota.informer.drivingschool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqLNGFZJWDcMMkcDmGxVWB_D_FRcLbOUM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

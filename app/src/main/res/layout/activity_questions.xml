@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionsActivity">
+
+    <ImageView
+        android:id="@+id/iv_questions"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_title_questions"
+        app:layout_constraintStart_toStartOf="@+id/tv_title_questions"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title_questions"
+        app:srcCompat="@drawable/preguntas" />
+
+    <TextView
+        android:id="@+id/tv_title_questions"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Preguntas para aprender a conducir"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_bar_questions" />
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_questions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/top_bar_questions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:backgroundTint="#FFFFFF"
+            app:navigationIcon="@drawable/ic_arrow_back"
+            app:navigationIconTint="#000000" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#2243FB"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="Siguiente"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:cornerRadius="0dp"
+        app:icon="@drawable/ic_arroy_right"
+        app:iconGravity="textEnd"
+        app:iconPadding="8dp"
+        app:iconSize="16dp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/rg_options" />
+
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#2243FB"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="Validar"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:cornerRadius="0dp"
+        app:icon="@drawable/ic_check"
+        app:iconGravity="textStart"
+        app:iconPadding="8dp"
+        app:iconSize="16dp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/rg_options"
+        app:layout_constraintStart_toStartOf="@+id/rg_options"
+        app:layout_constraintTop_toBottomOf="@+id/rg_options" />
+
+    <RadioGroup
+        android:id="@+id/rg_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:checkedButton="@+id/rb_a"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_question">
+
+        <RadioButton
+            android:id="@+id/rb_a"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="a" />
+
+        <RadioButton
+            android:id="@+id/rb_b"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="b" />
+
+        <RadioButton
+            android:id="@+id/rb_c"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="c" />
+
+        <RadioButton
+            android:id="@+id/rb_d"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="d" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_question"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/rg_options"
+        app:layout_constraintStart_toStartOf="@+id/rg_options"
+        app:layout_constraintTop_toBottomOf="@+id/iv_questions" />
+</androidx.constraintlayout.widget.ConstraintLayout>
