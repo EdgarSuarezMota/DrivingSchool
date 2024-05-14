@@ -14,10 +14,12 @@ Para utilizar esta aplicación, solo necesitas un dispositivo Android con sistem
 
 ## Permisos Necesarios
 
-Para garantizar el correcto funcionamiento de la aplicación, se requiere el siguiente permiso en tu dispositivo Android:
+Para garantizar el correcto funcionamiento de la aplicación, se requieren los siguientes permisos en tu dispositivo Android:
 
-- **Acceso a Internet (`android.permission.INTERNET`):**
+- `<uses-permission android:name="android.permission.INTERNET" />`
   - Este permiso permite que la aplicación acceda a Internet para interactuar con Firebase y almacenar/recuperar datos en la nube.
+- `<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />`
+  - Este permiso permite que la aplicación acceda al estado de la red para verificar la conectividad y asegurar el correcto funcionamiento de las características en línea.
 
 ## Capturas de Pantalla
 ![Inicio](https://github.com/EdgarSuarezMota/DrivingSchool/blob/master/Imagen1.png)
