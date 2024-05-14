@@ -22,10 +22,12 @@ Para garantizar el correcto funcionamiento de la aplicación, se requieren los s
   - Este permiso permite que la aplicación acceda al estado de la red para verificar la conectividad y asegurar el correcto funcionamiento de las características en línea.
 
 ## Capturas de Pantalla
-![Inicio](https://github.com/EdgarSuarezMota/DrivingSchool/blob/master/Imagen1.png)
-![Preguntas de Práctica](https://github.com/EdgarSuarezMota/DrivingSchool/blob/master/Imagen2.png)
-![Simulacro de Examen](https://github.com/EdgarSuarezMota/DrivingSchool/blob/master/Imagen3.png)
-![Progreso y Estadísticas](https://github.com/EdgarSuarezMota/DrivingSchool/blob/master/Imagen4.png)
+![Inicio](https://github.com/EdgarSuarezMota/DrivingSchool/blob/master/Inicio.png)
+![Preguntas de Práctica](https://github.com/EdgarSuarezMota/DrivingSchool/blob/master/Preguntas.png)
+![Simulacro de Examen](https://github.com/EdgarSuarezMota/DrivingSchool/blob/master/Categorias.png)
+![Progreso y Estadísticas](https://github.com/EdgarSuarezMota/DrivingSchool/blob/master/Aciertos.png)
+![Progreso y Estadísticas](https://github.com/EdgarSuarezMota/DrivingSchool/blob/master/Fallos.png)
+
 
 ## Uso
 1. Abre la aplicación.
