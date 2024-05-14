@@ -1,4 +1,4 @@
-# GratitudeJournal
+# DrivingSchool
 
 ## Descripción
 GratitudeJournal es una aplicación que te ayuda a practicar la gratitud diariamente al permitirte registrar tus pensamientos positivos y experiencias significativas. Con una interfaz simple y fácil de usar, GratitudeJournal te anima a reflexionar sobre las cosas buenas de la vida y a cultivar una mentalidad positiva.
