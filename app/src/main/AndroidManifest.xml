@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" >
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
 
     <application
         android:allowBackup="true"
@@ -11,23 +15,51 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DrivingSchool"
-        tools:targetApi="31" >
+        tools:targetApi="31">
         <activity
-            android:name=".QuestionsActivity"
-            android:exported="false" />
-        <activity
-            android:name=".QuentionsActivity"
-            android:exported="false"
-            android:label="@string/title_activity_quentions"
-            android:theme="@style/Theme.DrivingSchool" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".onboarding.OnboardingActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+    </activity>
+        <activity
+            android:name=".onboarding.Onboarding5"
+            android:exported="false" />
+        <activity
+            android:name=".onboarding.Onboarding4"
+            android:exported="false" />
+        <activity
+            android:name=".onboarding.Onboarding3"
+            android:exported="false" />
+        <activity
+            android:name=".onboarding.Onboarding2"
+            android:exported="false" />
+        <activity
+            android:name=".onboarding.Onboarding1"
+            android:exported="false" />
+        <activity
+            android:name=".result.ResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".category.QuestionsTopicsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".category.CategoryActivity"
+            android:exported="false"
+            android:label="@string/title_activity_topics"
+            android:theme="@style/Theme.DrivingSchool" />
+        <activity
+            android:name=".main.QuestionsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_quentions"
+            android:theme="@style/Theme.DrivingSchool" />
+        <activity
+            android:name=".main.MainActivity"
+            android:exported="false">
+
         </activity>
     </application>
 

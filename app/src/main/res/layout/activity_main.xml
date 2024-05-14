@@ -7,14 +7,14 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF"
     android:backgroundTint="#FFFFFF"
-    tools:context=".MainActivity">
+    tools:context=".main.MainActivity">
 
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
     android:backgroundTint="#FFFFFF"
-    tools:context=".MainActivity">
+    tools:context=".main.MainActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/app_bar_questions"
@@ -32,7 +32,11 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:backgroundTint="#FFFFFF"
-            app:navigationIcon="@drawable/ic_menu" />
+            app:navigationIcon="@drawable/ic_menu"
+            app:title="Preguntas"
+            app:titleCentered="false"
+            app:titleTextAppearance="@style/TextAppearance.AppCompat.Large"
+            app:titleTextColor="#000000" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -83,7 +87,7 @@
         app:layout_constraintEnd_toEndOf="@+id/tv_title_questions"
         app:layout_constraintStart_toStartOf="@+id/tv_title_questions"
         app:layout_constraintTop_toBottomOf="@+id/tv_title_questions"
-        app:srcCompat="@drawable/preguntas" />
+        app:srcCompat="@drawable/preguntas_main" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -97,6 +101,7 @@
         app:headerLayout="@layout/header_nav"
         app:itemIconTint="@color/common_text_color"
         app:itemRippleColor="@color/ripple"
+        app:itemShapeAppearance="@style/ShapeAppearance.Material3.Corner.None"
         app:itemShapeFillColor="@color/navigation_drawer"
         app:itemShapeInsetBottom="0dp"
         app:itemShapeInsetEnd="0dp"

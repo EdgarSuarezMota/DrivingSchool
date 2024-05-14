@@ -1,9 +1,9 @@
-package org.edgarsuarezmota.informer.drivingschool;
+package org.edgarsuarezmota.informer.drivingschool.main;
 
 import com.google.gson.annotations.SerializedName;
 import java.util.List;
 
-public class TemasResponse {
+public class TopicsResponse {
     @SerializedName("temas")
     private List<Tema> temas;
 

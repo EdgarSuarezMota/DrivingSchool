@@ -1,30 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-        <item
-            android:id="@+id/main_item"
-            android:title="AAAAAA">
-                <menu>
+    <item
+        android:id="@+id/main_item"
+        android:title="Opciones">
+        <menu>
 
-                <item
-            android:id="@+id/preguntas_generales"
-            android:title="Preguntas generales"
-            android:checkable="true"
-            android:enabled="true"
-            app:showAsAction="ifRoom" />
-        <item
-            android:id="@+id/preguntas_temas"
-            android:title="Preguntas por temas"
-            android:checkable="true"
-            android:enabled="true"
-            app:showAsAction="ifRoom"/>
-        <item
-            android:id="@+id/errores"
-            android:title="Errores en las preguntas"
-            android:checkable="true"
-            android:enabled="true"
-            app:showAsAction="ifRoom"/>
-</menu>
-        </item>
+            <item
+                android:id="@+id/preguntas_generales"
+                android:checkable="true"
+                android:enabled="true"
+                android:title="Preguntas generales"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/preguntas_temas"
+                android:checkable="true"
+                android:enabled="true"
+                android:title="Preguntas por temas"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/aciertos"
+                android:checkable="true"
+                android:enabled="true"
+                android:title="Aciertos en las preguntas"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/errores"
+                android:checkable="true"
+                android:enabled="true"
+                android:title="Errores en las preguntas"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
 </menu>
 

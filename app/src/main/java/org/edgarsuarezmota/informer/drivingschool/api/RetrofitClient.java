@@ -1,4 +1,4 @@
-package org.edgarsuarezmota.informer.drivingschool;
+package org.edgarsuarezmota.informer.drivingschool.api;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

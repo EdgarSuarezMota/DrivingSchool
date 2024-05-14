@@ -12,4 +12,6 @@
     <color name="configuration_spinner_background">#f2f2f2</color>
     <color name="configuration_spinner_text">#616161</color>
     <color name="background_card_home">#FAFAFA</color>
+    <color name="answer_correct">#8095E498</color>
+    <color name="answer_incorrect">#CCE61212</color>
 </resources>
