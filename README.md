@@ -1,17 +1,12 @@
 # DrivingSchool
 
 ## Descripción
-GratitudeJournal es una aplicación que te ayuda a practicar la gratitud diariamente al permitirte registrar tus pensamientos positivos y experiencias significativas. Con una interfaz simple y fácil de usar, GratitudeJournal te anima a reflexionar sobre las cosas buenas de la vida y a cultivar una mentalidad positiva.
+DrivingSchool es una aplicación diseñada para ayudarte a prepararte para el examen teórico de conducir. Con una interfaz intuitiva y fácil de usar, DrivingSchool te proporciona preguntas de práctica para que puedas adquirir los conocimientos necesarios y aprobar el examen teórico de conducción.
 
 ## Características
-- **Registro Diario:** Anota tus momentos de gratitud y experiencias positivas cada día.
-- **Reflexión Personal:** Toma un momento para reflexionar sobre las cosas que te hacen sentir agradecido y feliz.
-- **Interfaz Minimalista:** Diseño limpio y sin distracciones para una experiencia de usuario tranquila y enfocada.
-- **Privacidad:** Tus entradas de diario están protegidas y solo son accesibles para ti.
-- **Onboarding Personalizado:** Guía de introducción para nuevos usuarios que presenta las características clave de la aplicación y les permite establecer un nombre de usuario.
-- **Estadísticas de Entradas:** Visualiza estadísticas sobre tus entradas de diario, como el número total de entradas, el promedio de gratitud expresada y más.
-- **Configuración de Usuario:** Permite cambiar el nombre de usuario utilizado en la aplicación.
-- **Saludo Personalizado:** La aplicación te da la bienvenida con un saludo personalizado dependiendo de la hora del día.
+- **Preguntas de Práctica:** Accede a una amplia variedad de preguntas similares a las del examen teórico de conducir.
+- **Interfaz Intuitiva:** Diseño simple y amigable para una experiencia de usuario óptima y sin complicaciones.
+
 
 ## Requerimientos
 
@@ -25,17 +20,15 @@ Para garantizar el correcto funcionamiento de la aplicación, se requiere el sig
   - Este permiso permite que la aplicación acceda a Internet para interactuar con Firebase y almacenar/recuperar datos en la nube.
 
 ## Capturas de Pantalla
-![Inicio](https://github.com/EdgarSuarezMota/GratitudeJournal/blob/master/Imagen7.png)
-![Registro Diario](https://github.com/EdgarSuarezMota/GratitudeJournal/blob/master/Imagen8.png)
-![Estadísticas](https://github.com/EdgarSuarezMota/GratitudeJournal/blob/master/Imagen9.png)
-![Configuración](https://github.com/EdgarSuarezMota/GratitudeJournal/blob/master/Imagen10.png)
+![Inicio](https://github.com/EdgarSuarezMota/DrivingSchool/blob/master/Imagen1.png)
+![Preguntas de Práctica](https://github.com/EdgarSuarezMota/DrivingSchool/blob/master/Imagen2.png)
+![Simulacro de Examen](https://github.com/EdgarSuarezMota/DrivingSchool/blob/master/Imagen3.png)
+![Progreso y Estadísticas](https://github.com/EdgarSuarezMota/DrivingSchool/blob/master/Imagen4.png)
 
 ## Uso
 1. Abre la aplicación.
-2. Sigue la guía de introducción para aprender a utilizar las características principales de la aplicación y establecer tu nombre de usuario.
-3. Escribe en tu diario de gratitud tus pensamientos y experiencias positivas del día.
-4. Explora las estadísticas para obtener información sobre tus hábitos de gratitud y tu progreso en la práctica diaria.
-5. Disfruta del saludo personalizado que te da la aplicación según la hora del día.
+2. Sigue la guía de introducción para aprender a utilizar las características principales de la aplicación.
+3. Accede a las preguntas de práctica.
 
 ## Tecnologías Utilizadas
 - **Java:** Utilizado para el desarrollo de la aplicación Android.
