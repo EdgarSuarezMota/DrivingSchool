@@ -5,7 +5,10 @@ DrivingSchool es una aplicación diseñada para ayudarte a prepararte para el ex
 
 ## Características
 - **Preguntas de Práctica:** Accede a una amplia variedad de preguntas similares a las del examen teórico de conducir.
+- **Categorías de Preguntas:** Elige entre diferentes categorías de preguntas para enfocarte en áreas específicas del examen.
 - **Interfaz Intuitiva:** Diseño simple y amigable para una experiencia de usuario óptima y sin complicaciones.
+- **Aciertos y Fallos:** Revisa tus aciertos y fallos para identificar tus puntos fuertes y débiles.
+- **Onboarding Personalizado:** Guía de introducción para nuevos usuarios que presenta las características clave de la aplicación y les permite establecer un nombre de usuario.
 
 
 ## Requerimientos
@@ -31,8 +34,10 @@ Para garantizar el correcto funcionamiento de la aplicación, se requieren los s
 
 ## Uso
 1. Abre la aplicación.
-2. Sigue la guía de introducción para aprender a utilizar las características principales de la aplicación.
-3. Accede a las preguntas de práctica.
+2. Sigue la guía de introducción para aprender a utilizar las características principales de la aplicación y establecer tu nombre de usuario.
+3. Accede a las preguntas de práctica y elige las categorías que deseas estudiar para enfocarte en áreas específicas del examen teórico de conducir.
+4. Realiza preguntas de práctica, revisando tus aciertos y fallos para identificar tus puntos fuertes y débiles.
+5. Utiliza la interfaz intuitiva para navegar fácilmente entre las preguntas y las categorías de estudio.
 
 ## Tecnologías Utilizadas
 - **Java:** Utilizado para el desarrollo de la aplicación Android.
