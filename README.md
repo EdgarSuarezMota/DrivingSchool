@@ -35,6 +35,7 @@ Para garantizar el correcto funcionamiento de la aplicación, se requieren los s
 ## Tecnologías Utilizadas
 - **Java:** Utilizado para el desarrollo de la aplicación Android.
 - **Firebase:** Plataforma de desarrollo de aplicaciones móviles y web, utilizada para el almacenamiento de datos y la gestión de usuarios en la aplicación.
+- **Retrofit:** Biblioteca de cliente HTTP para Android y Java, utilizada para manejar las solicitudes de red y la interacción con APIs.
 
 ## Autor
 Edgar Suárez Mota - edgarsuarez2004@gmail.com
